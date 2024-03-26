@@ -5,7 +5,8 @@
         - left: Vị trí bắt đầu của mảng cần sắp xếp
         - right: Vị trí kết thúc của mảng cần sắp xếp
     Output:
-        - Mảng đã sắp xếp
+        - Mảng đã sắp xếp 
+        - list 
     
     _description_:
     - Hàm merge_sort sử dụng phương pháp đệ quy để sắp xếp mảng arr
