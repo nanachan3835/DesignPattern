@@ -5,16 +5,10 @@
         - left: Vị trí bắt đầu của mảng cần sắp xếp
         - right: Vị trí kết thúc của mảng cần sắp xếp
     Output:
-        - Mảng đã sắp xếp 
-        - list 
-    
-    _description_:
-    - Hàm merge_sort sử dụng phương pháp đệ quy để sắp xếp mảng arr
-    - Hàm merge sử dụng để gộp hai mảng đã sắp xếp thành một mảng
-    - Độ phức tạp thời gian: O(nlogn) với n là số phần tử của mảng arr
+        - list
 """
 
-def merge_sort(arr):
+def merge_sort(arr:list):
     if len(arr) <= 1:
         return arr
 
@@ -30,7 +24,7 @@ def merge_sort(arr):
     # Gộp hai mảng đã sắp xếp thành một mảng
     return merge(left_half, right_half)
 
-def merge(left, right):
+def merge(left:list, right:list):
     result = []
     left_index = 0
     right_index = 0
